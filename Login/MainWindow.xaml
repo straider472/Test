@@ -1,0 +1,28 @@
+﻿<Window x:Class="Login.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="800" Background="#FFB3DFE8">
+    <Grid>
+        <Button Name ="button" Content="Войти" Click="button_Click" Margin="326,240,326.6,140" Background="#FFEAC8C8" FontSize="16" FontWeight="Bold">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBox x:Name="pass" HorizontalAlignment="Left" Height="23" Margin="336,188,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Height="23" Margin="336,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="223,132,0,0" VerticalAlignment="Top" Width="63" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="223,182,0,0" VerticalAlignment="Top" Width="63" FontWeight="Bold" FontSize="14"/>
+    </Grid>
+</Window>
